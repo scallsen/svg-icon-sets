@@ -1,0 +1,43 @@
+html {
+  font-family: 'Overpass', sans-serif;
+}
+
+body {
+  background-color: #ff5e3a;
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+}
+
+h1, h2, p, a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn {
+  border-color: rgba(255, 255, 255, .5);
+  color: #fff;
+}
+
+.info-card {
+  border-bottom: 3px solid rgba(255, 255, 255, .3);
+}
+
+.info-card:last-child {
+  border-bottom: none;
+}
+
+svg {
+  fill: rgba(255, 255, 255, 1);
+}
+
+@media only screen and (min-width: 60em) {
+
+  .info-card {
+    border-bottom: none;
+    border-right: 3px solid rgba(255, 255, 255, .3);
+  }
+
+  .info-card:last-child {
+    border-right: none;
+  }
+
+}
